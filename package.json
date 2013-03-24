@@ -1,0 +1,8 @@
+
+{
+  "name": "tigerjs-todo",
+  "version": "1.0.0",
+  "dependencies": {
+  },
+  "devDependencies": {"tintan":"0.0.8"}
+}
