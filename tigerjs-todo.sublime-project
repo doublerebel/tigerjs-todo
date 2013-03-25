@@ -1,0 +1,31 @@
+{
+  "folders":
+  [
+    {
+      "path": "/home/charles/source/tigerjs-todo"
+    }
+  ],
+  "settings":
+  {
+    "tab_size": 2
+  },
+  "build_systems":
+  [
+    {
+      "name": "Tintan",
+      "selector": "source.js, source.coffee, source.xml",
+      "env":
+      {
+        "ANDROID_SDK": "/home/charles/source/android-sdk-linux/"
+      },
+      "working_dir": "$project_path",
+      "cmd": ["tintan", "run:android"],
+      "variants":
+      [{
+        "cmd": ["touch", "tiapp.xml"],
+        "name": "Run"
+      }]
+    } 
+  ]
+
+}
