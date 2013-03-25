@@ -3,10 +3,10 @@
 	<id>com.doublerebel.tigerjstodo</id>
 	<name>TigerJS Todo</name>
 	<version>1.0</version>
-	<publisher>not specified</publisher>
+	<publisher>Double Rebel</publisher>
 	<url/>
-	<description>not specified</description>
-	<copyright>not specified</copyright>
+	<description>Todo example app for TigerJS</description>
+	<copyright>2013</copyright>
 	<icon>appicon.png</icon>
 	<persistent-wifi>false</persistent-wifi>
 	<prerendered-icon>false</prerendered-icon>
@@ -16,7 +16,7 @@
 	<navbar-hidden>false</navbar-hidden>
 	<analytics>true</analytics>
 	<guid>48cf5ad2-16d7-4640-9fbb-8178d26306f7</guid>
-	<property name="ti.ui.defaultunit" type="string">system</property>
+	<property name="ti.ui.defaultunit" type="string">dip</property>
 	<iphone>
 		<orientations device="iphone">
 			<orientation>Ti.UI.PORTRAIT</orientation>
