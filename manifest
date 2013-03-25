@@ -3,7 +3,7 @@
 #type: mobile
 #guid: 48cf5ad2-16d7-4640-9fbb-8178d26306f7
 #version: 1.0
-#publisher: not specified
-#url: not specified
+#publisher: Double Rebel
+#url: https://github.com/doublerebel/tigerjs-todo
 #image: appicon.png
-#desc: not specified
+#desc: Todo example app for TigerJS
