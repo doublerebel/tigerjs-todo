@@ -35,8 +35,14 @@
 
         for (field in query) {
           value = query[field];
-          if (item[field] === query[field]) {
-            return true;
+          if (typeof value === "boolean") {
+            if ((Boolean(item[field])) === value) {
+              return true;
+            }
+          } else {
+            if (item[field] === value) {
+              return true;
+            }
           }
         }
       });

@@ -3,6 +3,7 @@
   "name": "tigerjs-todo",
   "version": "1.0.0",
   "dependencies": {
+  	"tiger": "~0.1.3"
   },
   "devDependencies": {"tintan":"0.0.8"}
 }
