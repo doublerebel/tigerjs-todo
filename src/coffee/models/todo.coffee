@@ -20,7 +20,11 @@ class Todo extends Tiger.Model
     # matches the requirements.
     @select (item) =>
       for field, value of query
-        return true if item[field] is query[field]
+        # SQLite stores bool as int.  Coerce back to bool.
+        if typeof value is "boolean"
+          return true if (Boolean item[field]) is value
+        else
+          return true if item[field] is value
 
   # Validation is performed before save, and fires an error event
   # with String message if record does not pass validation.
